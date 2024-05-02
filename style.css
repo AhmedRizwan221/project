@@ -1,0 +1,128 @@
+@import url(https://db.onlinewebfonts.com/c/229a57bbeef591e04a1fdfe347c90864?family=Centra+No2);
+
+@font-face {
+    font-family: "Centra No2";
+    src: url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.eot");
+    src: url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/229a57bbeef591e04a1fdfe347c90864.svg#Centra No2")format("svg");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Centra No2";
+}
+
+
+.main-container{
+    padding: 0 90px;
+}
+
+
+.section-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.section-heading h2{
+    font-size: 46px;
+}
+
+.section-heading a{
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    font-weight: 600px !important;
+    font-size: 19px;
+    color: #122d34;
+}
+
+.image-section{
+    display: flex;
+    margin-top: 40px;
+}
+
+.images{
+    max-width: 433px;
+   object-fit: contain;
+   margin-right: 20px;
+}
+
+.image2-section img,
+.short-image-section img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hidden-image1,
+.hidden-image2,
+.hidden-image2,
+.hidden-image2{
+    display: none;
+    max-width: 433px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+
+.text-section a{
+    padding: 12px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: #122d34;
+}
+
+
+.button{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #122d34;
+    border-radius: 10px;
+    color: #122d34;
+    width: 433px;
+    font-size: 20px;
+    display: none;
+}
+
+.button a{
+    text-decoration: none;
+   padding: 20px;
+}
+
+
+.icon-section img{
+    width: 17px;
+    padding-top: 50px;
+}
+
+.icon-section span{
+    font-size: 18px;
+    color: #122d34;
+}
+.span-underline{
+    opacity: o.5;
+    padding-top: 6px;
+    text-decoration: line-through;
+}
+
+.image1{
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top: 25px;
+    left:25px;
+    padding: 8px 14px;
+    background-color: #ef9a9a;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
